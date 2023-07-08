@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo List App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="app-title">
+      Todo List
+    </div>
+    <div id="task-form-container">
+      <img src="./assets/task.png" alt="t">
+      <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Add a new todo">
+      </form>
+      <img id="add-button" src="./assets/add.png" alt="+">
+    </div>
+    <div id="task-functions">
+      <div>
+        <img src="./assets/double-check.png" alt="Y">
+        <span id="complete-all-btn">Complete all tasks</span>
+      </div>
+      <div id="clear-completed-btn">
+        <span>Clear completed</span>
+      </div>
+    </div>
+    <div id="task-list-container">
+      <ul id="todo-list"></ul>
+    </div>
+    <div id="task-status">
+      <span id="task-count">0 tasks</span> left
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

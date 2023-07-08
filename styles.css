@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+img{
+  height: 20px;
+  width: 20px;
+}
+
+.container {
+  width: 40vw;
+  max-height: 70vh;
+  margin: 0 auto;
+  border: black solid 2px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#app-title{
+  margin: 5px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+/*task container form input*/
+
+#task-form-container{
+  height: 5vh;
+  background-color: lightgray;
+  margin: 5px;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  border-radius: 5px;
+}
+
+#task-form-container img{
+  height: 20px;
+  width: 20px;
+  margin: 2px 2px;
+}
+
+#task-form-container form{
+  flex-grow: 1;
+  margin:  2px 5px ;
+
+}
+
+#task-form-container form input{
+  width: 100%;
+  background-color: lightgray;
+  border: none;
+  outline: none;
+}
+
+/*task functions*/
+
+#task-functions{
+  display: flex;
+  justify-content: space-between;
+}
+
+#task-functions div{
+  margin: 5px;
+  color: lightgray;
+}
+
+
+#todo-list{
+  list-style-type: none;
+  margin: 5px;
+}
+
+#todo-list li{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+
+#todo-list li span{
+  flex-grow: 1;
+}
+
+#task-status{
+  color: lightgray;
+  margin: 5px;
+}
+
+#todo-list li:hover {
+  background-color: lightgray;
+  color: gray;
+}
